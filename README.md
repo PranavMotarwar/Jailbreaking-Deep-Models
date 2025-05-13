@@ -13,8 +13,6 @@
 | `DL_project_3.ipynb` | Jupyter Notebook with full implementation    |
 | `task5_transferability.png` | Graph for Task 5 results                  |
 | `Deep_Learning_Mini_Project_3.pdf` | Project report (PDF)             |
-| `TestDataSet/`     | Test images (unzip `TestDataSet.zip`)        |
-| `AdversarialSets/` | Generated FGSM/PGD/Patch adversarial images  |
 
 ---
 
