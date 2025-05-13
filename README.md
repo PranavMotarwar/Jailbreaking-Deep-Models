@@ -32,11 +32,23 @@
 
 
 📊 Task 5: Transferability Graph
+
 Transferability Results
 *DenseNet-121 performance across adversarial datasets.
 PGD attacks show strong cross-model transferability.*
 
+![DenseNet-121 Performance on Adversarial Datasets](Results.png)
+
+**Key Observations**:
+- **Original**: 74.80% Top-1 accuracy (baseline)  
+- **FGSM**: Accuracy drops to 63.40% (-11.4% absolute)  
+- **PGD**: Accuracy plummets to 53.60% (-21.2% absolute)  
+- **Patch PGD**: Partial recovery to 71.00% (localized perturbations are less transferable)  
+
+*Visualization shows adversarial examples crafted for ResNet-34 significantly degrade DenseNet-121 performance, demonstrating cross-model vulnerability.*
+
 📄 Report Highlights
+
 Key findings from Deep_Learning_Mini_Project_3.pdf:
 
 Reduced ResNet-34 accuracy to 0.00% using PGD (ε=0.02)
@@ -44,3 +56,12 @@ Reduced ResNet-34 accuracy to 0.00% using PGD (ε=0.02)
 Patch attacks (32x32, ε=0.3) achieved 41.20% Top-1 accuracy
 
 FGSM perturbations transferred to DenseNet-121 with 63.40% Top-1 accuracy
+
+
+🔍 How to Reproduce Results
+
+Download TestDataSet.zip and unzip.
+
+Run cells attached ipynb sequentially.
+
+Results auto-generated in notebook and saved as PNG/PDF.
