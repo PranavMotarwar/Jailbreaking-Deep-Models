@@ -1,12 +1,9 @@
-# Jailbreaking-Deep-Models
-
 # Jailbreaking Deep Models: Adversarial Attacks  
-![GitHub Repo Size](https://img.shields.io/github/repo-size/yourusername/jailbreaking-deep-models)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 **Authors**: Aniket Mane, Subhan Akhtar, Pranav Motarwar  
 **Affiliation**: New York University  
-**GitHub**: [Repository Link](https://github.com/yourusername/jailbreaking-deep-models)  
+**GitHub**: [Repository Link](https://github.com/PranavMotarwar/Jailbreaking-Deep-Models)  
 
 ---
 
