@@ -29,7 +29,7 @@
    jupyter notebook DL_project_3.ipynb
 
 
-📊 Task 5: Transferability Graph
+##📊 Task 5: Transferability Graph
 
 Transferability Results
 *DenseNet-121 performance across adversarial datasets.
@@ -45,7 +45,7 @@ PGD attacks show strong cross-model transferability.*
 
 *Visualization shows adversarial examples crafted for ResNet-34 significantly degrade DenseNet-121 performance, demonstrating cross-model vulnerability.*
 
-📄 Report Highlights
+##📄 Report Highlights
 
 Key findings from Deep_Learning_Mini_Project_3.pdf:
 
@@ -56,10 +56,22 @@ Patch attacks (32x32, ε=0.3) achieved 41.20% Top-1 accuracy
 FGSM perturbations transferred to DenseNet-121 with 63.40% Top-1 accuracy
 
 
-🔍 How to Reproduce Results
+##🔍 How to Reproduce Results
 
 Download TestDataSet.zip and unzip.
 
 Run cells attached ipynb sequentially.
 
 Results auto-generated in notebook and saved as PNG/PDF.
+
+
+
+---
+
+## 🤝 Acknowledgements
+
+This project was completed as part of the **Deep Learning course at NYU Tandon School of Engineering** in **Spring 2025**.
+
+We would like to thank our professor and teaching assistants for their support and guidance throughout the project.
+
+---
