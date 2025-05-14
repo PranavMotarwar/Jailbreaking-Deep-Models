@@ -18,7 +18,7 @@
 
 ## ▶️ Quick Start
 1. **Run in Colab**:  
-   [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/jailbreaking-deep-models/blob/main/DL_project_3.ipynb)
+   [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1HIQl6CYfBTWDs2_ccNa0NRFR0nYTTb2i?usp=sharing)
 
 2. **Local Execution**:
    ```bash
