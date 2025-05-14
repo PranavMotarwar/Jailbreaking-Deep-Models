@@ -33,6 +33,7 @@
 The graph below shows the Top-1 and Top-5 classification accuracy of the ResNet-34 model on clean and adversarially perturbed datasets using FGSM, PGD, and Patch-PGD attacks.
 
 ![ResNet Accuracy](Task4result.png)
+
 	•	Clean data yields strong performance (Top-1: 76%, Top-5: 94%).
 	•	FGSM reduces Top-1 to 6%, showing high vulnerability to fast gradient attacks.
 	•	PGD (iterative FGSM) nearly breaks the model (Top-1: 0%, Top-5: 2%).
