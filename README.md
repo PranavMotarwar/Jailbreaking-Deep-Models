@@ -50,10 +50,10 @@ PGD attacks show strong cross-model transferability.*
 ![DenseNet-121 Performance on Adversarial Datasets](Results.png)
 
 **Key Observations**:
-- **Original**: 74.80% Top-1 accuracy (baseline)  
-- **FGSM**: Accuracy drops to 63.40% (-11.4% absolute)  
-- **PGD**: Accuracy plummets to 53.60% (-21.2% absolute)  
-- **Patch PGD**: Partial recovery to 71.00% (localized perturbations are less transferable)  
+- **Original**: 75.00% Top-1 accuracy — strong baseline performance. (baseline)  
+- **FGSM**: Accuracy drops to 63.00%, showing a 12% absolute decrease.
+- **PGD**: Top-1 accuracy further drops to 53.00%, indicating a 22% absolute degradation from clean performance.
+- **Patch PGD**: Partial recovery with 71.00% Top-1 accuracy, showing that localized attacks are less effective and less transferable to DenseNet-121.
 
 *Visualization shows adversarial examples crafted for ResNet-34 significantly degrade DenseNet-121 performance, demonstrating cross-model vulnerability.*
 
