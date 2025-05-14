@@ -28,6 +28,17 @@
    # Launch Jupyter notebook
    jupyter notebook DL_project_3.ipynb
 
+📊 ResNet-34 Accuracy Across Attack Types
+
+The graph below shows the Top-1 and Top-5 classification accuracy of the ResNet-34 model on clean and adversarially perturbed datasets using FGSM, PGD, and Patch-PGD attacks.
+
+![ResNet Accuracy](figures/Task\ 4\ result.png)
+	•	Clean data yields strong performance (Top-1: 76%, Top-5: 94%).
+	•	FGSM reduces Top-1 to 6%, showing high vulnerability to fast gradient attacks.
+	•	PGD (iterative FGSM) nearly breaks the model (Top-1: 0%, Top-5: 2%).
+	•	Patch-PGD partially preserves model performance (Top-1: 39%, Top-5: 76%).
+
+These results demonstrate the fragility of ResNet-34 under adversarial pressure, especially from iterative perturbations like PGD.
 
 📊 Task 5: Transferability Graph
 
